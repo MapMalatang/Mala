@@ -231,3 +231,54 @@ body {
     color: #000;
     font-weight: 600;
 }
+
+@media screen and (max-width: 768px) {
+
+    .sidebar {
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        max-width: 100%;
+        height: 50vh;
+        border-radius: 24px 24px 0 0;
+        box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.1);
+        border: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.8);
+    }
+
+    .header {
+        padding: 15px 20px 10px 20px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .subtitle {
+        margin: 0 0 10px 0;
+    }
+
+    .list-header {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .shop-list {
+        padding: 10px 20px 20px 20px;
+        gap: 10px;
+    }
+
+    .shop-item {
+        padding: 12px;
+    }
+
+    .shop-name {
+        font-size: 13px;
+    }
+
+    .info-window {
+        font-size: 11px;
+    }
+}
